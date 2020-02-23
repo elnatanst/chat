@@ -9,7 +9,7 @@ the server can run on docker with the commands:
 docker build -t chat .
 
 #run the container with the port and container name
-docker run --name chat -d -p 8081:8081 chat
+docker run --name chat -d -p 10000:10000 chat
 
 #run the client
 for local docker:
