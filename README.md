@@ -5,10 +5,10 @@ all the project is with python standard library so no need requirements.txt.
 
 the server can run on docker with the commands:
 
-#build the image
+#build the image::
 docker build -t chat .
 
-#run the container with the port and container name
+#run the container with the port and container name::
 docker run --name chat -d -p 10000:10000 chat
 
 #run the client
